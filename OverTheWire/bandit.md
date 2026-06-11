@@ -13,10 +13,10 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 cat readme
 ```
 ## 2) bandit1 
-- bandit1 is little tricky as we get file named "-" which cant be read using cat so lets try realpath to get full path then use it to read the password
+- bandit1 is little tricky as we get file named "-" which cant be read using cat so lets try realpath to get full path then use it to cat the password
 ```
 realpath '-'
+cat {realpath}
 ```
 ## 3) bandit2
-
-- 
+- bandit3 

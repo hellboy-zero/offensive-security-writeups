@@ -9,9 +9,9 @@
 
 | Component | Details |
 |---|---|
-| **Vulnerable Apps** | DVWA, Juice Shop, WebGoat, SecureBank |
-| **Operating Systems** | Kali Linux, Windows (VM) |
-| **Setup** | Local virtualized environment |
+| **Vulnerable Apps** | DVWA, Juice Shop, WebGoat, SecureBank , Portswiggers Labs , TryHackMe |
+| **Operating Systems** | Kali Linux |
+| **Setup** | Local virtualized environment ,  Online Labs|
 
 ---
 
@@ -51,15 +51,13 @@ offensive-security-notes/
 │   ├── SQL-Injection.md
 │   └── Command-Injection.md
 │
-├── JuiceShop/
-│   ├── Broken-Authentication.md
-│   └── IDOR.md
-│
-└── WebGoat/
-    ├── CSRF.md
-    └── SQL-Injection.md
+├── Portswiggers_labs/
+|   ├── Broken-Authentication.md
+|   └── IDOR.md
+|
+|__ OverTheWire/
+    |__ bandit.md
 ```
-
 ---
 
 ## 📝 Writeup Format
@@ -69,8 +67,6 @@ Each writeup follows a consistent structure:
 - **Objective** — what vulnerability is being tested
 - **Steps** — exact steps to reproduce
 - **Proof of Concept** — screenshots and payloads
-- **Impact** — what an attacker could do in a real scenario
-- **Remediation** — how developers should fix it
 
 ---
 
@@ -83,15 +79,13 @@ These notes document my practical learning journey and serve as a reference for 
 
 ## 🛠️ Tools Used
 
-`Burp Suite` `Nmap` `Kali Linux` `Firefox DevTools` `SQLMap` `Nikto`
+`Burp Suite` `Caido`
 
 ---
 
 ## 📬 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/YOUR-LINKEDIN)
-[![Email](https://img.shields.io/badge/Email-red?style=flat&logo=gmail)](mailto:YOUR-EMAIL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/abhishek-chaudhary26)
+[![Email](https://img.shields.io/badge/Email-red?style=flat&logo=gmail)](mailto:abhishek.chaudhary.ml@gmail.com)
 
----
 
-*⚠️ All research is conducted in isolated lab environments for educational purposes only.*
