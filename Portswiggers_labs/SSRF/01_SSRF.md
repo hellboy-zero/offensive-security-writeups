@@ -12,7 +12,7 @@ Access the administrator interface running on `http://localhost/admin` and delet
 
 ## Reconnaissance
 
-While intercepting the stock check request in Burp Suite, I noticed that the application sends a URL through the `stockApi` parameter.
+While intercepting the stock check request in Caido, I noticed that the application sends a URL through the `stockApi` parameter.
 
 ```http
 POST /product/stock HTTP/1.1
@@ -36,7 +36,7 @@ The response returned the administrator interface, confirming that the server wa
 
 ### Screenshot
 
-![Admin Panel Access](images/admin-panel.png)
+![Admin Panel Access](../_images/admin-panel.png)
 
 ---
 
@@ -64,7 +64,7 @@ The server issued the request on my behalf and successfully deleted the user `ca
 
 ### Screenshot
 
-![Lab Solved](images/ssrf.png)
+![Lab Solved](../_images/ssrf.png)
 
 ---
 

@@ -1,4 +1,4 @@
-# 🛡️ Offensive Security Notes
+# 🛡️ Offensive Security Writeup
 
 > Hands-on vulnerability research and exploitation writeups from personal home lab practice.  
 > Focused on web application security — documenting real techniques, not just theory.
@@ -47,13 +47,19 @@ offensive-security-notes/
 ├── README.md
 │
 ├── DVWA/
+|   |__ _images
 │   ├── XSS.md
 │   ├── SQL-Injection.md
-│   └── Command-Injection.md
+│   |── Command-Injection.md
+|   |__ file_upload.md
+|   
 │
 ├── Portswiggers_labs/
-|   ├── Broken-Authentication.md
-|   └── IDOR.md
+|   |__ _images
+|   ├── File_upload
+|   |── 2FA
+|   |__ SQL_injection
+|   |__ SSRF
 |
 |__ OverTheWire/
     |__ bandit.md

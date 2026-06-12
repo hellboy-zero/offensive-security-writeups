@@ -6,4 +6,4 @@ The Objective is to find SQLi `(SQL injection)` in PortSwiggers Labs
 ## `Walkthrough`
 
 
- 
+    
